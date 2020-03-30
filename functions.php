@@ -7,6 +7,6 @@
 function dire_bonjour(){
 	echo '<p class="hello"> Hello World !!</p>';
 }
-add_action( 'init', 'dire_bonjour');
+add_action( 'mb', 'dire_bonjour');
 
 ?>
